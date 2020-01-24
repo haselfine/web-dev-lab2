@@ -1,0 +1,11 @@
+.jumbotron{
+    background-color: rgb(128, 218, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    color: white;
+}
+
+body{
+    font-family: 'Californian fb', Times, serif;
+    background-color: rgb(253, 198, 198);
+}

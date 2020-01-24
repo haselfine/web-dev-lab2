@@ -1,0 +1,20 @@
+.jumbotron{
+    background-color: rgb(128, 240, 178);
+    font-family: Tahoma;
+    font-style: bold;
+    color: white;
+}
+
+#poke-code{
+    font-size: 8pt;
+}
+
+body{
+    
+    font-family: 'Californian fb', Times, serif;
+    background-color: rgb(253, 245, 198);
+}
+
+img{
+    height: 240px;
+}
