@@ -1,0 +1,23 @@
+.jumbotron{
+    background-color: #90ca97;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: rgb(83, 83, 83);
+}
+
+body{
+    font-family: 'Californian fb';
+
+/*references page 419 in HTML & CSS book*/
+
+/* fallback color */
+background-color: #66cccc;
+/* Firefox 3.6+ */
+background-image: -moz-linear-gradient(#c9e4cc, #9bcea1);
+/* Safari 4+, Chrome 1+ */
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c9e4cc), to(#9bcea1));
+/* Safari 5.1+, Chrome 10+ */
+background-image: -webkit-linear-gradient(#c9e4cc, #9bcea1);
+/* Opera 11.10+ */
+background-image: -o-linear-gradient(#c9e4cc, #9bcea1);
+}

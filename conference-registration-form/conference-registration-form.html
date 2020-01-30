@@ -1,0 +1,78 @@
+<header>
+    <title>Conference Registration Form</title>
+
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity = "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin = "anonymous">
+    <link rel = "stylesheet" href = "registration-styles.css" type = "text/css">
+</header>
+
+<body class = "m-7">
+    <div class = "jumbotron">
+        <h1>Register here for the conference on April 26th at Faugerstrom Hall</h1>
+    </div>
+    
+    <div class = "row">
+        
+        
+        <form class = "mx-4">
+            <div class = "identity-and-shirt">
+                <div class = "mx-4">
+                    <label for = "name">Name: </label>
+                    <br>
+                    <input name = "name" type = "text" class = "form-control" required>
+                
+                    <label for = "email">Email: </label>
+                    <br>
+                    <input name = "email" type = "email" class = "form-control" required>
+                
+                    <label for = "password">Password: </label>
+                    <br>
+                    <input name = "password" type = "password" class = "form-control" required>
+                </div>
+                <div class = "mx-4">
+                    Select a T-shirt size
+                    <br>
+                    <select name = "shirt-size" required>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                <div class = "mx-4">
+                    <label for = "birthday">Date of Birth:</label>
+                    <br>
+                    <input name = "birthday" type = "date" class = "form-control" required>
+                </div>
+            </div>
+            <div id = "time-and-sponsors">
+                <div class = "mx-4">
+                    Would you like to receive emails from the conference sponsors?
+                    <br>
+                    <input name = "sponsors" type = "radio" required>Yes
+                    <br>
+                    <input name = "sponsors" type = "radio" required checked>No
+                </div>
+                <div class = "mx-4">
+                    Which sessions will you attend?
+                    <br>
+                    
+                    <input name = "session" id = "morning-session" type = "checkbox">
+                    <label for = "morning-session">Morning</label>
+                    <br>
+                    <input name = "session" id = "afternoon-session" type = "checkbox">
+                    <label for = "afternoon-session">Afternoon</label>
+                </div>
+                <br>
+            </div>
+            <div class = "mx-4">
+                Any special requests we should take into consideration?
+                <textarea name = "considerations" class = "form-control" rows = "7" cols = "70"></textarea>
+            </p>
+            <div class = "mx-4">
+                <input class = "btn btn-danger mt-2" type = "submit" name = "boom">
+            </div>
+        </form>
+
+    </div>
+</body>
